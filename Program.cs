@@ -39,6 +39,7 @@ namespace NETRenamer
                     }
                     Console.WriteLine(at);
                     ass.Dispose();
+                    mdl.Dispose();
                     fi.MoveTo(fi.Directory.FullName + "\\" + at + ext);
                 } catch (Exception e)
                 {
